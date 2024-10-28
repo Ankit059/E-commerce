@@ -1,17 +1,15 @@
-// import { Confirm } from "./compo/Confirm";
-// import { Main } from "./compo/Main";
-// import { Carts } from "./compo/Carts";
+import { Blog } from "./compo/Blog";
+import { Main } from "./compo/Main";
 import { Navbar } from "./compo/Navbar";
-import { Products } from "./compo/Products";
+import { Shop } from "./compo/Shop";
 
 function App() {
   return (
     <>
       <Navbar/>
-      {/* <Main/> */}
-      {/* <Confirm/> */}
-      {/* <Carts/> */}
-      <Products/>
+      <Main/>
+      <Shop/>
+      <Blog/>
     </>
   );
 }
